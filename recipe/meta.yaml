@@ -11,13 +11,13 @@ source:
   sha256: 3c2470fd16b4e9ac313e6de377dca31f3e3f4e7d98c7e633b20da14e48f5ea5f
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or py!=35]
 
 requirements:
   build:
     - curl
-    - sqlite
+    - sqlite 3.13.*
     - python
 
 test:
