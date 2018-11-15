@@ -16,9 +16,8 @@ to conductor 10000 and William Stein's database of interesting curves
 Current build status
 ====================
 
-![Linux disabled](https://img.shields.io/badge/linux-disabled-lightgrey.svg)
-![OSX disabled](https://img.shields.io/badge/OSX-disabled-lightgrey.svg)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sagemath-db-elliptic-curves-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sagemath-db-elliptic-curves-feedstock)
 
 Current release info
 ====================
