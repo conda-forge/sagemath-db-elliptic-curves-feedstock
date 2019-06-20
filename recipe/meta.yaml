@@ -17,7 +17,7 @@ build:
 requirements:
   build:
     - curl
-    - sqlite 3.13.*
+    - sqlite
     - python
 
 test:
