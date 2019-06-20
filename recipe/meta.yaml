@@ -1,4 +1,4 @@
-{% set version = "0.8" %}
+{% set version = "0.8.1" %}
 {% set name = "sagemath-db-elliptic-curves" %}
 
 package:
@@ -8,10 +8,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.bz2
   url: http://files.sagemath.org/spkg/upstream/elliptic_curves/elliptic_curves-{{ version }}.tar.bz2
-  sha256: 3c2470fd16b4e9ac313e6de377dca31f3e3f4e7d98c7e633b20da14e48f5ea5f
+  sha256: 5fba5470d9d91f06282ed5edfc45bf0ea1c5f7c8d4837c46234b17be1481fd50
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
